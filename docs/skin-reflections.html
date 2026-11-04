@@ -7,12 +7,84 @@
 @media(max-width:760px){.top-inner{padding:17px 20px;gap:15px}.brand{font-size:19px}.top-divider{display:none}.top-links{gap:14px;font-size:12px}.top-links .repo-link{display:none}.site-layout{display:block}.sidebar{display:none}.mobile-nav{display:block;border-bottom:1px solid var(--line);padding:0 20px;background:var(--paper)}.mobile-nav summary{font-size:13px;padding:13px 0;color:var(--green)}.mobile-nav nav{max-height:65dvh;overflow:auto;padding-bottom:18px}.mobile-nav .sidebar-label{margin-top:15px}.main{padding:27px 20px 45px;max-width:100%}.breadcrumbs{font-size:11px;margin-bottom:22px}.page-intro{font-size:17px}.page-actions{gap:8px}.page-actions button{font-size:12px;padding:8px 12px}.summary{padding:20px}.summary ul{padding-left:18px}.lesson-section{padding:23px 0}.lesson-section h2{font-size:24px}.body-text{font-size:16px}.note{padding:16px 18px}.video-card,.homework-card{padding:20px}.homework-card h2{font-size:22px}.time-list{font-size:12px;gap:10px}.bottom-nav{gap:12px}.bottom-nav a{padding:14px;font-size:12px}.course-dashboard{gap:16px}.resume-card,.progress-card{padding:20px}.module-heading h2{font-size:21px}.lesson-card{padding:18px;gap:12px;grid-template-columns:28px minmax(0,1fr)}.lesson-card h3{font-size:18px}.lesson-card .card-state{grid-column:2;max-width:none;text-align:left}.library-links{grid-template-columns:1fr;gap:10px}.assessment-grid{grid-template-columns:1fr}.assessment-header{align-items:start}.curve-layout{grid-template-columns:1fr}.curve-buttons{grid-template-columns:1fr 1fr}.opponent-row{gap:8px;grid-template-columns:1fr 20px 1fr}.color-tag{gap:7px;font-size:12px}.color-tag i{width:24px;height:32px}.search-row button{font-size:12px;padding:9px 12px}.crop-stage{height:240px}.page-hero{padding-bottom:25px}.top-links a{white-space:nowrap}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media print{@page{margin:16mm}.topbar,.sidebar,.mobile-nav,.page-actions,.bottom-nav,.search-box,.course-dashboard,.homework-check,.assessment button,.curve-buttons{display:none!important}.site-layout{display:block}.main{padding:0;max-width:none}body{font-size:11pt;background:white}h1{font-size:28pt}h2{font-size:18pt}.lesson-section{break-inside:auto;padding:18px 0}.video-card,.summary,.homework-card,.note,.resource-card{break-inside:avoid}.body-text{font-size:11pt}.topbar{position:static}.page-hero{border:0}.curve-lab,.reflection-diagram,.color-tag,.crop-window{print-color-adjust:exact;-webkit-print-color-adjust:exact}.site-footer{font-size:8pt}.toc ol{grid-template-columns:1fr 1fr}.note{font-size:9pt}.assessment input{display:none}.resource-grid{grid-template-columns:1fr 1fr}}
+
+.fnd-visual{margin:30px 0;padding:25px;background:#fffef9;border:1px solid #d9ded0;border-radius:16px;color:#252822;min-width:0;overflow-wrap:anywhere}
+.fnd-visual .fnd-eyebrow{font-size:11px;line-height:1.5;letter-spacing:.1em;text-transform:uppercase;font-weight:750;color:#355e49;margin-bottom:9px}
+.fnd-visual h3{font-size:22px;line-height:1.3;letter-spacing:-.02em;margin:0 0 15px}
+.fnd-visual p{font-size:15px;line-height:1.7;margin:0}
+.fnd-visual p+p{margin-top:12px}
+.fnd-visual .fnd-intro{max-width:74ch;margin-bottom:20px;color:#586450}
+.fnd-buttons{display:flex;gap:8px;flex-wrap:wrap;margin:20px 0}
+.fnd-buttons button{font:inherit;font-size:13px;line-height:1.45;min-height:44px;max-width:100%;border:1px solid #d2d8ca;padding:9px 14px;border-radius:9px;background:#fffef9;color:#293c30}
+.fnd-buttons button[aria-pressed="true"]{background:#355e49;color:#fff;border-color:#355e49}
+.fnd-visual figure{margin:0;min-width:0}
+.fnd-visual svg{display:block;width:100%;max-width:100%;height:auto;border-radius:9px}
+.fnd-visual .fnd-figure{margin:20px 0}
+.fnd-visual figcaption{font-size:13px;line-height:1.6;color:#61685b;margin:10px 0 0}
+.fnd-visual .fnd-caption{font-size:12px;line-height:1.7;color:#68705e;border-top:1px solid #e0e3d7;padding-top:15px;margin-top:20px}
+.fnd-visual .fnd-status{padding:17px 19px;background:#eaf0e6;border-radius:9px;font-size:14px;line-height:1.7;margin-top:21px}
+.fnd-reason{border-left:3px solid #b58b50;padding:0 0 0 17px;margin-top:24px}
+.fnd-reason>strong{display:block;font-size:15px;line-height:1.6;margin-bottom:7px}
+.fnd-visual .fnd-reason p{font-size:14px}
+.fnd-visual .fnd-task{font-size:14px;margin-top:20px}
+.fnd-check-row{display:flex;align-items:center;justify-content:center;gap:10px 13px;flex-wrap:wrap;font-size:12px;line-height:1.5;margin:18px 0}
+.fnd-check-row i{display:block;width:37px;height:32px;border-radius:4px;border:1px solid #7c8177}
+.fnd-reference-gray{background:#969696}
+.fnd-passports{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
+.fnd-passport{display:flex;gap:13px;align-items:center;background:#f2f1e9;border:1px solid #e0e0d3;padding:15px;border-radius:9px;min-width:0}
+.fnd-passport>div{min-width:0}
+.fnd-passport strong{display:block;font-size:19px;line-height:1.4;font-variant-numeric:tabular-nums}
+.fnd-passport span{display:block;font-size:13px;line-height:1.6;color:#626a5b}
+.fnd-passport .fnd-lamp{width:69px;height:58px;flex-shrink:0}
+.fnd-two-causes{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+.fnd-cause{padding:18px;border:1px solid #dfe2d6;border-radius:9px;min-width:0}
+.fnd-cause.fnd-emphasis{border:2px solid #8b9d79;padding:17px;background:#f1f4ec}
+.fnd-small-label{display:block;font-size:14px;line-height:1.6;font-weight:650;margin-bottom:12px}
+.fnd-visual .fnd-cause p{font-size:14px}
+.fnd-white-strip{height:31px;max-width:240px;background:linear-gradient(90deg,#e5b578,#ece6d6,#c7dbec);border-radius:5px;margin-bottom:15px;border:1px solid #c7c6b8}
+.fnd-objects{display:flex;gap:9px;height:31px;align-items:center;margin-bottom:15px}
+.fnd-objects i{width:30px;height:30px;background:var(--fnd-object);border-radius:50%;display:block;border:1px solid #00000012}
+.fnd-select-label{display:flex;gap:12px;flex-wrap:wrap;align-items:center;font-size:13px;line-height:1.5;margin:20px 0}
+.fnd-select-label select{min-height:44px;font:inherit;font-size:16px;max-width:100%;padding:8px 12px;border:1px solid #cad1c1;border-radius:7px;background:#fffef9;color:#293c30}
+.fnd-key{display:flex;gap:10px 21px;flex-wrap:wrap;font-size:12px;line-height:1.7;margin:16px 0}
+.fnd-key span{display:flex;gap:8px;align-items:center}
+.fnd-key i{display:block;width:19px;height:6px;background:var(--fnd-dot);border-radius:3px;flex-shrink:0}
+.fnd-crop-pair{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:24px;align-items:start;margin:24px 0}
+.fnd-crop-pair figure{min-width:0}
+.fnd-crop-pair svg{border:1px solid #c6ccbf;overflow:hidden}
+.fnd-figure-label{font-size:13px;line-height:1.6;font-weight:650;margin-bottom:10px}
+.fnd-crop-pair #fnd-crop-result{max-width:290px;margin:0 auto}
+@media(max-width:640px){.fnd-visual{padding:19px;margin:24px 0}.fnd-visual h3{font-size:20px}.fnd-buttons{gap:7px}.fnd-buttons button{font-size:12px;padding:9px 11px}.fnd-two-causes,.fnd-crop-pair{grid-template-columns:1fr}.fnd-passport{padding:12px;gap:8px;flex-direction:column;align-items:start}.fnd-passport .fnd-lamp{width:57px;height:48px}.fnd-passport strong{font-size:18px}.fnd-passport span{font-size:12px}.fnd-passports{gap:10px}.fnd-crop-pair{gap:23px}.fnd-crop-pair #fnd-crop-result{max-width:260px}.fnd-visual .fnd-status{padding:15px}.fnd-reason{padding-left:13px}.fnd-key{gap:9px}}
+@media print{.fnd-buttons,.fnd-select-label{display:none!important}.fnd-visual{break-inside:avoid;padding:16px;background:white}.fnd-visual svg,.fnd-status,.fnd-white-strip,.fnd-objects,.fnd-passport{print-color-adjust:exact;-webkit-print-color-adjust:exact}.fnd-visual p{font-size:10pt}.fnd-visual .fnd-caption{font-size:8pt}.fnd-visual h3{font-size:14pt}.fnd-crop-pair,.fnd-two-causes{grid-template-columns:1fr 1fr}}
 </style></head><body data-lesson="skin-reflections"><a class="skip" href="#main">К содержанию</a><header class="topbar"><div class="top-inner"><a class="brand" href="index.html">КОЛ<span>О</span>Р</a><span class="top-divider" aria-hidden="true"></span><span class="top-label">Цветокоррекция фотографий</span><nav class="top-links" aria-label="Основная навигация"><a href="index.html">Программа</a><a href="homework.html">Задания</a><a href="resources.html">Материалы</a><a href="index.html#search">Поиск</a></nav></div></header><details class="mobile-nav"><summary>Программа курса</summary><nav aria-label="Программа курса на телефоне"><div class="sidebar-label">Начало</div><div class="course-nav"><a data-nav-lesson="start" href="start.html"><span class="nav-dot" aria-hidden="true"></span><span>С чего начать и как проходить курс</span></a></div><div class="sidebar-label">Свет и исходник</div><div class="course-nav"><a data-nav-lesson="lesson-01-source" href="lesson-01-source.html"><span class="nav-dot" aria-hidden="true"></span><span>Исходник: свет и баланс белого</span></a><a data-nav-lesson="color-language" href="color-language.html"><span class="nav-dot" aria-hidden="true"></span><span>Насмотренность и язык цвета</span></a><a data-nav-lesson="skin-reflections" href="skin-reflections.html" aria-current="page"><span class="nav-dot" aria-hidden="true"></span><span>Кожа и цветные рефлексы</span></a></div><div class="sidebar-label">Инструменты и композиция</div><div class="course-nav"><a data-nav-lesson="lesson-02-lightroom" href="lesson-02-lightroom.html"><span class="nav-dot" aria-hidden="true"></span><span>Инструменты Lightroom: кривые и смешение</span></a><a data-nav-lesson="color-guide" href="color-guide.html"><span class="nav-dot" aria-hidden="true"></span><span>Много цветов. Одна логика.</span></a><a data-nav-lesson="crop-color" href="crop-color.html"><span class="nav-dot" aria-hidden="true"></span><span>Кадрирование и цветовые массы</span></a></div><div class="sidebar-label">Референсы и копирование</div><div class="course-nav"><a data-nav-lesson="lesson-03-copying" href="lesson-03-copying.html"><span class="nav-dot" aria-hidden="true"></span><span>Копирование цвета: от референса к плану</span></a><a data-nav-lesson="rgb-curves" href="rgb-curves.html"><span class="nav-dot" aria-hidden="true"></span><span>RGB-кривые и нейтрализация оттенков</span></a><a data-nav-lesson="film-color" href="film-color.html"><span class="nav-dot" aria-hidden="true"></span><span>Плёночный цвет и осознанная практика</span></a></div><div class="sidebar-label">Кино, серия и свой стиль</div><div class="course-nav"><a data-nav-lesson="cinema-color" href="cinema-color.html"><span class="nav-dot" aria-hidden="true"></span><span>Киногрейдинг и фотография в стиле Тарковского</span></a><a data-nav-lesson="black-white" href="black-white.html"><span class="nav-dot" aria-hidden="true"></span><span>Чёрно-белая фотография и эстетика Provoke</span></a><a data-nav-lesson="final" href="final.html"><span class="nav-dot" aria-hidden="true"></span><span>Свой стиль и итоги курса</span></a></div><div class="sidebar-label">Библиотека</div><div class="course-nav"><a href="homework.html">Все задания</a><a href="resources.html">Видео и материалы</a><a href="index.html#search">Поиск по курсу</a></div></nav></details><div class="site-layout"><aside class="sidebar"><nav aria-label="Программа курса"><div class="sidebar-label">Начало</div><div class="course-nav"><a data-nav-lesson="start" href="start.html"><span class="nav-dot" aria-hidden="true"></span><span>С чего начать и как проходить курс</span></a></div><div class="sidebar-label">Свет и исходник</div><div class="course-nav"><a data-nav-lesson="lesson-01-source" href="lesson-01-source.html"><span class="nav-dot" aria-hidden="true"></span><span>Исходник: свет и баланс белого</span></a><a data-nav-lesson="color-language" href="color-language.html"><span class="nav-dot" aria-hidden="true"></span><span>Насмотренность и язык цвета</span></a><a data-nav-lesson="skin-reflections" href="skin-reflections.html" aria-current="page"><span class="nav-dot" aria-hidden="true"></span><span>Кожа и цветные рефлексы</span></a></div><div class="sidebar-label">Инструменты и композиция</div><div class="course-nav"><a data-nav-lesson="lesson-02-lightroom" href="lesson-02-lightroom.html"><span class="nav-dot" aria-hidden="true"></span><span>Инструменты Lightroom: кривые и смешение</span></a><a data-nav-lesson="color-guide" href="color-guide.html"><span class="nav-dot" aria-hidden="true"></span><span>Много цветов. Одна логика.</span></a><a data-nav-lesson="crop-color" href="crop-color.html"><span class="nav-dot" aria-hidden="true"></span><span>Кадрирование и цветовые массы</span></a></div><div class="sidebar-label">Референсы и копирование</div><div class="course-nav"><a data-nav-lesson="lesson-03-copying" href="lesson-03-copying.html"><span class="nav-dot" aria-hidden="true"></span><span>Копирование цвета: от референса к плану</span></a><a data-nav-lesson="rgb-curves" href="rgb-curves.html"><span class="nav-dot" aria-hidden="true"></span><span>RGB-кривые и нейтрализация оттенков</span></a><a data-nav-lesson="film-color" href="film-color.html"><span class="nav-dot" aria-hidden="true"></span><span>Плёночный цвет и осознанная практика</span></a></div><div class="sidebar-label">Кино, серия и свой стиль</div><div class="course-nav"><a data-nav-lesson="cinema-color" href="cinema-color.html"><span class="nav-dot" aria-hidden="true"></span><span>Киногрейдинг и фотография в стиле Тарковского</span></a><a data-nav-lesson="black-white" href="black-white.html"><span class="nav-dot" aria-hidden="true"></span><span>Чёрно-белая фотография и эстетика Provoke</span></a><a data-nav-lesson="final" href="final.html"><span class="nav-dot" aria-hidden="true"></span><span>Свой стиль и итоги курса</span></a></div><div class="sidebar-label">Библиотека</div><div class="course-nav"><a href="homework.html">Все задания</a><a href="resources.html">Видео и материалы</a><a href="index.html#search">Поиск по курсу</a></div></nav><p class="sidebar-foot">13 учебных страниц<br>Ваш темп и практика</p></aside><main class="main" id="main"><div class="breadcrumbs"><a href="index.html">Программа курса</a><span>›</span><span>Свет и исходник</span></div><header class="page-hero"><div class="eyebrow">Тематический материал · основа</div><h1>Кожа и цветные рефлексы</h1><p class="page-intro">Как различать оттенки кожи, замечать нежелательные рефлексы и управлять ими ещё во время съёмки.</p><div class="page-actions"><button class="complete" type="button" aria-pressed="false">Отметить изученным</button><button class="bookmark" type="button" aria-pressed="false">В закладки</button><button type="button" data-print>Печать / PDF</button></div></header><aside class="summary"><h2>Главное в этой теме</h2><ul><li>Рефлексы возникают от света, отражённого цветными поверхностями, включая одежду.</li><li>Задача определяет, какой оттенок полезен для атмосферы, а какой мешает.</li><li>Положение модели, локация и дополнительный свет часто помогают раньше, чем ползунки редактора.</li></ul></aside><nav class="toc" aria-label="Содержание страницы"><h2>На этой странице</h2><ol><li><a href="#skin-unwanted-color">Что называют «грязью» в цвете</a></li><li><a href="#skin-basic-checks">Баланс белого и окружение</a></li><li><a href="#skin-perception">Если различать оттенки пока трудно</a></li><li><a href="#skin-observation-training">Тренировка глаза: коллекция и парные сравнения</a></li><li><a href="#reflections-origin">Откуда появляется цветной рефлекс</a></li><li><a href="#reflections-monochrome">Чёрно-белый вариант как осознанный выход</a></li><li><a href="#reflections-reflector">Добавить свет отражателем</a></li><li><a href="#reflections-location">Выбрать более подходящее окружение</a></li><li><a href="#reflections-clothing">Учесть цвет одежды</a></li><li><a href="#reflections-position">Изменить положение модели и ракурс</a></li><li><a href="#reflections-extra-light">Использовать дополнительный источник</a></li><li><a href="#reflections-purpose">Когда рефлекс помогает фотографии</a></li></ol></nav><section class="lesson-section" id="skin-unwanted-color"><h2>Что называют «грязью» в цвете</h2><p class="section-intro">Сначала определите, действительно ли оттенок противоречит задаче кадра.</p><div class="body-text"><ol><li>Что значит «грязь» на снимке?</li></ol>
 <p>Мы ещё будем подробно обсуждать грязность цвета во втором и следующих уроках.</p>
 <p>Если совсем коротко, это появление серо-коричневатого, мутного оттенка там, где его не должно быть: например, в коже, зелени и других цветах.</p>
 <p>Очень часто такой эффект возникает при смешении комплементарных цветов. Например, у нас есть зелёная трава, а при тонировке мы начинаем добавлять в неё красный. В зависимости от способа коррекции зелень может терять насыщенность или менять характер оттенка — и результат может восприниматься как «грязный».</p>
 <p>При этом сама по себе грязь — не обязательно плохо. Иногда она стилистически абсолютно оправданна и работает на фотографию. А иногда это просто нежелательный побочный эффект цветокоррекции. Вот это разграничение мы тоже будем дальше подробно разбирать.</p></div><aside class="note"><span class="note-label">Уточнение для самостоятельной работы</span>«Грязь» — оценочное слово, а не техническая ошибка сама по себе. Художественное смешение красного и зелёного не следует механически переносить на цифровую коррекцию: в RGB противоположность зелёного — маджента, и результат зависит от инструмента.</aside></section><section class="lesson-section" id="skin-basic-checks"><h2>Баланс белого и окружение</h2><p class="section-intro">Проверьте общую настройку ББ и поверхности, от которых на лицо приходит свет.</p><div class="body-text"><p>Баланс белого<br>• Если он выставлен корректно, то оттенки кожи с большой вероятностью окажутся верными.</p>
-<p>Контроль рефлексов (паразитных оттенков)<br>• Заранее анализируйте окружение: зелёная трава, красные стены, синие неоновые лампы — всё это даёт заметные цветовые рефлексы на кожу.<br>• Старайтесь минимизировать такие источники ещё на съёмке: переместить модель, добавить отражатель, смягчить свет.</p></div><aside class="note"><span class="note-label">Уточнение для самостоятельной работы</span>Корректный баланс белого помогает, но не гарантирует одинаково точную кожу при смешанном освещении, локальных рефлексах и особенностях источника. Единственного правильного оттенка кожи для всех людей и условий нет.</aside></section><section class="lesson-section" id="skin-perception"><h2>Если различать оттенки пока трудно</h2><p class="section-intro">Разделите оценку условий съёмки и оценку результата обработки.</p><div class="body-text"><h3>👀 Если оттенки «не видятся» в обработке</h3>
+<p>Контроль рефлексов (паразитных оттенков)<br>• Заранее анализируйте окружение: зелёная трава, красные стены, синие неоновые лампы — всё это даёт заметные цветовые рефлексы на кожу.<br>• Старайтесь минимизировать такие источники ещё на съёмке: переместить модель, добавить отражатель, смягчить свет.</p></div><div class="fnd-visual" id="fnd-skin"><div class="fnd-eyebrow">Наглядный разбор</div><h3>Общий оттенок и локальный рефлекс — разные задачи</h3><p class="fnd-intro">Сопоставьте лицо и нейтральную карту справа. В этом упражнении можно менять исходный образец кожи, сохраняя его индивидуальные различия.</p><label class="fnd-select-label" for="fnd-skin-base-select">Исходный условный образец
+<select id="fnd-skin-base-select"><option value="light">Светлый</option><option value="medium" selected>Средний</option><option value="dark">Тёмный</option></select></label>
+<div class="fnd-buttons" role="group" aria-label="Тип цветового изменения">
+<button type="button" data-fnd-skin="base" aria-pressed="false">Исходный образец</button>
+<button type="button" data-fnd-skin="local" aria-pressed="true">Локальный рефлекс</button>
+<button type="button" data-fnd-skin="global" aria-pressed="false">Общий оттенок</button></div>
+<figure class="fnd-figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-labelledby="fnd-skin-scene-title" ><title id="fnd-skin-scene-title">Условный портрет с нейтральной картой справа; локальный оттенок расположен на нижней левой части лица</title>
+<defs><clipPath id="fnd-skin-face-clip"><ellipse cx="276" cy="142" rx="70" ry="88"/></clipPath></defs>
+<rect width="600" height="360" fill="#d6d3c9"/>
+<rect y="286" width="600" height="74" fill="#b8b5aa"/>
+<path d="M244 205H308V262H244Z" fill="var(--fnd-skin-base,#bd875f)"/>
+<path d="M225 242Q277 225 324 243L370 360H176Z" fill="#627f8e"/>
+<ellipse cx="276" cy="142" rx="70" ry="88" fill="var(--fnd-skin-base,#bd875f)"/>
+<path d="M207 131Q193 35 269 34Q355 31 346 137L327 102Q291 115 253 84L218 137Z" fill="#4c4c43"/>
+<path d="M241 145H254M294 145H307" stroke="#4e4e46" stroke-width="5" stroke-linecap="round"/>
+<path d="M272 155 265 177H281M258 199Q276 206 293 197" fill="none" stroke="#704e3e" stroke-width="3" opacity=".7"/>
+<g clip-path="url(#fnd-skin-face-clip)" opacity="var(--fnd-skin-local,.38)"><ellipse cx="239" cy="200" rx="65" ry="46" fill="#6c9d54"/></g>
+<rect x="424" y="122" width="108" height="112" rx="4" fill="#999" stroke="#6b6b68" stroke-width="2"/>
+<path d="M430 129H443M430 129V142M513 129H526V142M430 213V226H443M513 226H526V213" fill="none" stroke="#f6f5ef" stroke-width="3"/>
+<rect width="600" height="360" fill="#73a35d" opacity="var(--fnd-skin-global,0)"/>
+</svg><figcaption>Локальный рефлекс в схеме занимает только часть лица. Общий оттенок меняет и лицо, и одежду, и карту.</figcaption></figure>
+<p class="fnd-status" id="fnd-skin-status" aria-live="polite">Зеленоватой стала часть лица, а карта осталась серой. Глобальное добавление мадженты затронуло бы и области без этого рефлекса: сначала проверьте причину и локализацию.</p>
+<div class="fnd-reason"><strong>Как выбирать масштаб исправления?</strong><p>Сравните несколько поверхностей в одинаковом освещении. Общая ошибка ББ может проявляться в разных местах; отдельное цветное отражение требует внимания к конкретной области. В реальном кадре эти причины могут сочетаться.</p></div>
+<p class="fnd-task"><strong>Упражнение:</strong> найдите границу изменения. Чем она объясняется — границей освещения, отражающей поверхностью или материалом предмета?</p><p class="fnd-caption">Схема зон влияния, а не физическая модель отражения и не точная коррекция кожи. Образцы не задают «идеальный» скинтон; цвет кожи оценивают с учётом человека и света.</p></div><aside class="note"><span class="note-label">Уточнение для самостоятельной работы</span>Корректный баланс белого помогает, но не гарантирует одинаково точную кожу при смешанном освещении, локальных рефлексах и особенностях источника. Единственного правильного оттенка кожи для всех людей и условий нет.</aside></section><section class="lesson-section" id="skin-perception"><h2>Если различать оттенки пока трудно</h2><p class="section-intro">Разделите оценку условий съёмки и оценку результата обработки.</p><div class="body-text"><h3>👀 Если оттенки «не видятся» в обработке</h3>
 <ul><li>Помните: не нужно «вытягивать» скинтон из испорченного исходника. (Это будет сложно сделать, если вы не видите оттенки кожи) Лучше снять максимально чисто.</li><li>Если в глазах «все лица одинаково красные/зелёные» — доверяйте базовым параметрам (баланс белого и устранение рефлексов), а не субъективному ощущению.</li></ul></div><aside class="note"><span class="note-label">Уточнение для самостоятельной работы</span>Сравнивайте с подходящими референсами в сходном свете; ни автоматический ББ, ни субъективное ощущение сами по себе не заменяют проверку.</aside></section><section class="lesson-section" id="skin-observation-training"><h2>Тренировка глаза: коллекция и парные сравнения</h2><p class="section-intro">Собирайте разные оттенки кожи и описывайте различия словами, сохраняя контекст освещения.</p><div class="body-text"><h3>📂 Тренировка насмотренности</h3>
 <ul><li>Создайте папку “Skin tones”</li><li>Сохраняйте туда фотографии разных людей с оттенками кожи, которые вам кажутся удачными и неудачными.</li><li>Добавляйте кадры разных рас, типов кожи, освещений.</li></ul>
 <ul><li>Анализируйте по спектру</li><li>Сравнивайте: этот тон ближе к красному, малиновому или зелёному?</li><li>Что в нём преобладает: желтизна, розовинка, оливковый подтон?</li><li>Пытайтесь словами описывать оттенок — это развивает восприятие.</li></ul>
@@ -32,7 +104,33 @@
 <p>Представим, что мы снимаем модель в тени дерева, а вокруг ярко освещённая солнцем трава. На лицо модели попадает зелёный рефлекс.</p>
 <p>Мы можем поставить белый или нейтральный серебристый отражатель так, чтобы он ловил солнечный свет и перенаправлял его на лицо.</p>
 <p>В результате мы добавляем более нейтральный свет, который начинает конкурировать с зелёным рефлексом. Если его достаточно, нежелательный оттенок становится значительно слабее.</p>
-<p>Здесь важно именно расположение отражателя. Если он сам находится в глубокой тени, то сильного эффекта мы не получим.</p></div></section><section class="lesson-section" id="reflections-location"><h2>Выбрать более подходящее окружение</h2><p class="section-intro">Сравните ближайшие поверхности, а не только привлекательность фона.</p><div class="body-text"><ol><li>Осознанно выбирать место съёмки</li></ol>
+<p>Здесь важно именно расположение отражателя. Если он сам находится в глубокой тени, то сильного эффекта мы не получим.</p></div><div class="fnd-visual" id="fnd-reflector"><div class="fnd-eyebrow">Наглядный разбор</div><h3>Белая поверхность не создаёт собственный свет</h3><p class="fnd-intro">Проследите путь света от источника до лица. Отражатель помогает, если на него попадает подходящий свет и он направляет его к модели.</p><div class="fnd-buttons" role="group" aria-label="Расположение отражателя в условной сцене">
+<button type="button" data-fnd-reflector="none" aria-pressed="true">Без отражателя</button>
+<button type="button" data-fnd-reflector="shade" aria-pressed="false">Мало света на отражателе</button>
+<button type="button" data-fnd-reflector="lit" aria-pressed="false">Отражатель ловит источник</button></div>
+<figure class="fnd-figure"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-labelledby="fnd-reflector-scene-title" ><title id="fnd-reflector-scene-title">Схема: солнце слева, зелёная поверхность снизу, модель справа; отражатель в центре добавляет второй путь света</title>
+<rect width="600" height="360" fill="#e6e5dc"/>
+<path d="M0 275H600V360H0Z" fill="#709254"/>
+<circle cx="70" cy="60" r="30" fill="#e1c261"/>
+<path d="M70 14V4M70 106V116M24 60H14M116 60H126M37 27 30 20M104 92 111 99M37 92 30 99M104 27 111 20" stroke="#c2a34d" stroke-width="4"/>
+<path d="M87 91 199 264" fill="none" stroke="#c6a44b" stroke-width="7"/>
+<path d="M178 255 201 269 200 243" fill="none" stroke="#c6a44b" stroke-width="5"/>
+<path d="M227 270 430 184" fill="none" stroke="#568545" stroke-width="9"/>
+<path d="M412 180 435 182 421 201" fill="none" stroke="#568545" stroke-width="6"/>
+<g opacity="var(--fnd-ref-panel,0)"><ellipse cx="291" cy="107" rx="69" ry="28" transform="rotate(-18 291 107)" fill="#fffdf0" stroke="#9a9c8f" stroke-width="4"/><path d="M284 131 271 260" stroke="#94978e" stroke-width="5"/></g>
+<path d="M112 66 225 91" stroke="#c6a44b" stroke-width="6" opacity="var(--fnd-ref-direct,0)"/>
+<path d="M207 78 229 92 204 101" fill="none" stroke="#c6a44b" stroke-width="5" opacity="var(--fnd-ref-direct,0)"/>
+<path d="M351 116 438 154" stroke="#a9a38d" stroke-width="var(--fnd-ref-width,5)" stroke-dasharray="var(--fnd-ref-dash,8 8)" opacity="var(--fnd-ref-panel,0)"/>
+<path d="M425 140 441 156 418 160" fill="none" stroke="#a9a38d" stroke-width="5" opacity="var(--fnd-ref-panel,0)"/>
+<path d="M455 218H511L531 294H435Z" fill="#73899a"/>
+<ellipse cx="483" cy="170" rx="40" ry="49" fill="#bd8b68"/>
+<path d="M446 154Q447 113 484 115Q521 114 521 153L498 138 463 152Z" fill="#4f554c"/>
+<ellipse cx="465" cy="190" rx="21" ry="20" fill="#74a159" opacity="var(--fnd-ref-cast,.55)"/>
+</svg><figcaption>Стрелки показывают происхождение света. Их толщина и оттенок — условные обозначения, а не измерения мощности и спектра.</figcaption></figure>
+<div class="fnd-key"><span><i style="--fnd-dot:#c6a44b"></i>Источник → поверхность</span><span><i style="--fnd-dot:#568545"></i>Зелёная поверхность → лицо</span><span><i style="--fnd-dot:#a9a38d"></i>Отражатель → лицо</span></div>
+<p class="fnd-status" id="fnd-reflector-status" aria-live="polite">В нижнюю часть лица приходит заметный свет от зелёной поверхности. Добавочного пути через отражатель пока нет.</p>
+<div class="fnd-reason"><strong>Почему рефлекс становится слабее?</strong><p>При удачном положении отражателя к лицу приходит больше света от выбранного источника, и вклад зелёного отражения становится относительно меньше. Трава не перестаёт отражать свет; меняется соотношение вкладов.</p></div>
+<p class="fnd-task"><strong>На съёмке:</strong> двигайте отражатель, наблюдая результат на лице. Если он слабо освещён, эффект может быть небольшим; свет неба или другой поверхности тоже нужно учитывать.</p><p class="fnd-caption">Принципиальная схема. Она не рассчитывает освещённость и не обещает, что любой отражатель полностью уберёт зелёный оттенок. Важно, какой свет он ловит, его размер, положение и расстояние.</p></div></section><section class="lesson-section" id="reflections-location"><h2>Выбрать более подходящее окружение</h2><p class="section-intro">Сравните ближайшие поверхности, а не только привлекательность фона.</p><div class="body-text"><ol><li>Осознанно выбирать место съёмки</li></ol>
 <p>Это, пожалуй, самый доступный способ, особенно когда мы снимаем без ассистента и дополнительного оборудования.</p>
 <p>Например, у нас есть два варианта: лесная поляна с яркой зелёной травой и светлый песчаный пляж.</p>
 <p>Если задача — получить максимально чистые оттенки кожи, то песчаный пляж может оказаться более удачным решением. Светлый песок будет отражать относительно нейтральный, немного тёплый свет, а зелёная трава может давать выраженный зелёный рефлекс.</p>
@@ -53,12 +151,126 @@
 <p>Не нужно воспринимать любой цветной рефлекс как ошибку.</p>
 <p>Рефлексы — естественная часть освещения, и иногда именно они помогают объединить фигуру с окружающей средой, создать атмосферу и подчеркнуть определённую цветовую композицию.</p>
 <p>Проблемой они становятся тогда, когда противоречат нашей задаче. Например, мы хотим получить чистый естественный оттенок кожи, а вместо этого видим выраженный зелёный подтон.</p>
-<p>Поэтому я бы советовала ещё до начала съёмки обращать внимание на три вещи: какие поверхности окружают модель, какой свет на них попадает и куда этот свет отражается.</p></div></section><nav class="bottom-nav" aria-label="Переходы по курсу"><a href="color-language.html"><span>← Предыдущая страница</span>Насмотренность и язык цвета</a><a href="lesson-02-lightroom.html"><span>Следующая страница →</span>Инструменты Lightroom: кривые и смешение</a></nav><footer class="site-footer">Структура по переданным сообщениям Telegram. Номера 1–3 сохранены у занятий преподавателя; остальные страницы — тематические дополнения. Текстовые материалы сопровождают записи и не являются их расшифровкой.<br>Прогресс хранится только в этом браузере. <span data-local-status></span> · <a href="https://github.com/vzeberg/color-correction-lessons" target="_blank" rel="noopener">Репозиторий</a></footer></main></div><noscript><p class="nojs">Текст, задания и ссылки доступны. Для поиска, заметок и сохранения прогресса включите JavaScript.</p></noscript><script type="application/json" id="course-data">[{"id": "start", "title": "С чего начать и как проходить курс"}, {"id": "lesson-01-source", "title": "Исходник: свет и баланс белого"}, {"id": "color-language", "title": "Насмотренность и язык цвета"}, {"id": "skin-reflections", "title": "Кожа и цветные рефлексы"}, {"id": "lesson-02-lightroom", "title": "Инструменты Lightroom: кривые и смешение"}, {"id": "color-guide", "title": "Много цветов. Одна логика."}, {"id": "crop-color", "title": "Кадрирование и цветовые массы"}, {"id": "lesson-03-copying", "title": "Копирование цвета: от референса к плану"}, {"id": "rgb-curves", "title": "RGB-кривые и нейтрализация оттенков"}, {"id": "film-color", "title": "Плёночный цвет и осознанная практика"}, {"id": "cinema-color", "title": "Киногрейдинг и фотография в стиле Тарковского"}, {"id": "black-white", "title": "Чёрно-белая фотография и эстетика Provoke"}, {"id": "final", "title": "Свой стиль и итоги курса"}]</script><script>
+<p>Поэтому я бы советовала ещё до начала съёмки обращать внимание на три вещи: какие поверхности окружают модель, какой свет на них попадает и куда этот свет отражается.</p></div></section><nav class="bottom-nav" aria-label="Переходы по курсу"><a href="color-language.html"><span>← Предыдущая страница</span>Насмотренность и язык цвета</a><a href="lesson-02-lightroom.html"><span>Следующая страница →</span>Инструменты Lightroom: кривые и смешение</a></nav><footer class="site-footer">Структура по переданным сообщениям Telegram. Номера 1–3 сохранены у занятий преподавателя; остальные страницы — тематические дополнения. Текстовые материалы сопровождают записи и не являются их расшифровкой.<br>Прогресс хранится только в этом браузере. <span data-local-status></span> · <a href="https://github.com/vzeberg/color-correction-lessons" target="_blank" rel="noopener">Репозиторий</a></footer></main></div><noscript><p class="nojs">Текст, задания и ссылки доступны. Для тренажёров, поиска и сохранения прогресса включите JavaScript.</p></noscript><script type="application/json" id="course-data">[{"id": "start", "title": "С чего начать и как проходить курс"}, {"id": "lesson-01-source", "title": "Исходник: свет и баланс белого"}, {"id": "color-language", "title": "Насмотренность и язык цвета"}, {"id": "skin-reflections", "title": "Кожа и цветные рефлексы"}, {"id": "lesson-02-lightroom", "title": "Инструменты Lightroom: кривые и смешение"}, {"id": "color-guide", "title": "Много цветов. Одна логика."}, {"id": "crop-color", "title": "Кадрирование и цветовые массы"}, {"id": "lesson-03-copying", "title": "Копирование цвета: от референса к плану"}, {"id": "rgb-curves", "title": "RGB-кривые и нейтрализация оттенков"}, {"id": "film-color", "title": "Плёночный цвет и осознанная практика"}, {"id": "cinema-color", "title": "Киногрейдинг и фотография в стиле Тарковского"}, {"id": "black-white", "title": "Чёрно-белая фотография и эстетика Provoke"}, {"id": "final", "title": "Свой стиль и итоги курса"}]</script><script>
 (()=>{'use strict';const KEY='kolor-course-v1';let state={done:[],bookmarks:[],tasks:[],last:null,assessment:{a:[0,0,0,0],b:[0,0,0,0]}};let storedFields={};let storage=true;try{const saved=JSON.parse(localStorage.getItem(KEY)||'null');if(saved&&typeof saved==='object'&&!Array.isArray(saved)){storedFields=saved;for(const k of ['done','bookmarks','tasks'])if(Array.isArray(saved[k]))state[k]=saved[k].filter(x=>typeof x==='string');if(typeof saved.last==='string')state.last=saved.last;for(const k of ['a','b'])if(Array.isArray(saved.assessment?.[k])&&saved.assessment[k].length===4)state.assessment[k]=saved.assessment[k].map(x=>Math.max(0,Math.min(10,Number(x)||0)));}}catch(e){storage=false;}
 const course=JSON.parse(document.getElementById('course-data').textContent);const page=document.body.dataset.lesson||'';const save=()=>{try{localStorage.setItem(KEY,JSON.stringify({...storedFields,...state}));return true;}catch(e){storage=false;return false;}};const toggle=(list,id)=>list.includes(id)?list.filter(x=>x!==id):[...list,id];
 function refresh(){document.querySelectorAll('[data-nav-lesson]').forEach(n=>{const ok=state.done.includes(n.dataset.navLesson);const d=n.querySelector('.nav-dot');if(d){d.classList.toggle('done',ok);d.textContent=ok?'✓':'';}});document.querySelectorAll('[data-card-lesson]').forEach(n=>{const ok=state.done.includes(n.dataset.cardLesson);n.textContent=ok?'✓ Изучено':'Не отмечено';n.classList.toggle('done',ok);});document.querySelectorAll('.complete').forEach(b=>{const ok=state.done.includes(page);b.setAttribute('aria-pressed',String(ok));b.textContent=ok?'✓ Изучено':'Отметить изученным';});document.querySelectorAll('.bookmark').forEach(b=>{const ok=state.bookmarks.includes(page);b.setAttribute('aria-pressed',String(ok));b.textContent=ok?'✓ В закладках':'В закладки';});const n=course.filter(p=>state.done.includes(p.id)).length;document.querySelectorAll('[data-progress-text]').forEach(e=>e.textContent=`Изучено ${n} из ${course.length} страниц`);document.querySelectorAll('.progress-fill').forEach(e=>e.style.width=(n/course.length*100)+'%');const resume=course.find(p=>p.id===state.last)||course[0];const link=document.getElementById('resume-link');if(link){link.href=resume.id+'.html';link.textContent=state.last?'Продолжить →':'Начать курс →';document.getElementById('resume-title').textContent=resume.title;}const bookmarks=document.getElementById('bookmarks-list');if(bookmarks){bookmarks.replaceChildren();state.bookmarks.forEach(id=>{const p=course.find(x=>x.id===id);if(!p)return;const a=document.createElement('a');a.href=p.id+'.html';a.textContent=p.title;a.className='pill-link';bookmarks.append(a,document.createTextNode(' · '));});}document.querySelectorAll('[data-homework]').forEach(e=>e.checked=state.tasks.includes(e.dataset.homework));}
 if(page&&course.some(x=>x.id===page)){state.last=page;save();}document.querySelectorAll('.complete').forEach(b=>b.addEventListener('click',()=>{state.done=toggle(state.done,page);save();refresh();}));document.querySelectorAll('.bookmark').forEach(b=>b.addEventListener('click',()=>{state.bookmarks=toggle(state.bookmarks,page);save();refresh();}));document.querySelectorAll('[data-homework]').forEach(e=>e.addEventListener('change',()=>{state.tasks=toggle(state.tasks,e.dataset.homework);save();refresh();}));document.querySelectorAll('[data-print]').forEach(b=>b.addEventListener('click',()=>window.print()));
 document.querySelectorAll('[data-assessment]').forEach(input=>{const group=input.dataset.assessment,axis=+input.dataset.axis;input.value=state.assessment[group][axis];const out=document.getElementById(input.id+'-value');out.textContent=input.value+'/10';input.addEventListener('input',()=>{state.assessment[group][axis]=+input.value;out.textContent=input.value+'/10';save();drawAssessment();});});function drawAssessment(){const root=document.getElementById('assessment-bars');if(!root)return;root.querySelectorAll('[data-bar]').forEach(e=>{const [g,i]=e.dataset.bar.split('-');e.setAttribute('width',String(state.assessment[g][+i]*20));});}drawAssessment();
 const presets={base:{path:'M30 230 L230 30',text:'Диагональ: входное значение совпадает с выходным.'},s:{path:'M30 213 C90 230 65 188 98 175 S171 55 230 43',text:'Контраст полутонов усиливается; крайние точки немного сжаты.'},matte:{path:'M30 187 C70 183 89 158 129 133 S190 60 230 42',text:'Чёрная точка поднята; глубокий чёрный становится светлее.'},j:{path:'M30 230 C85 230 78 178 130 130 S195 57 230 43',text:'Тёмные значения сжаты вниз; оцените, не теряются ли различия в тенях.'},soft:{path:'M30 213 C75 180 90 143 130 130 S190 90 230 30',text:'Контраст отдельных полутонов смягчён. Это не гарантирует высокий ключ.'},pop:{path:'M30 230 C75 220 85 202 110 163 S155 70 180 62 S212 34 230 30',text:'Меняются прежде всего отношения средних тонов, крайние точки сохранены.'},flat:{path:'M30 197 C95 184 170 118 230 63',text:'Выходной диапазон сжат. Файл не становится Log.'}};document.querySelectorAll('[data-curve]').forEach(b=>b.addEventListener('click',()=>{const p=presets[b.dataset.curve];document.getElementById('curve-path').setAttribute('d',p.path);document.getElementById('curve-description').textContent=p.text;document.querySelectorAll('[data-curve]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));}));function setRatio(b){const [w,h]=b.dataset.ratio.split(':').map(Number),frame=document.getElementById('crop-window'),box=frame.parentElement;const width=Math.min(box.clientWidth-24,(box.clientHeight-24)*w/h);frame.style.width=width+'px';frame.style.height=(width*h/w)+'px';frame.style.aspectRatio=w+'/'+h;document.querySelectorAll('[data-ratio]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));document.getElementById('crop-description').textContent=`Формат ${b.dataset.ratio}. Сцена не меняется — рамка обрезает её края. Сравните цветовые массы. Это условная схема.`;}document.querySelectorAll('[data-ratio]').forEach(b=>b.addEventListener('click',()=>setRatio(b)));const initialRatio=document.querySelector('[data-ratio][aria-pressed="true"]');if(initialRatio){setRatio(initialRatio);window.addEventListener('resize',()=>setRatio(document.querySelector('[data-ratio][aria-pressed="true"]')));}refresh();if(!storage){document.querySelectorAll('[data-local-status]').forEach(e=>e.textContent='Сохранение в браузере недоступно; страницы и упражнения остаются доступны.');}
+})();
+
+(()=>{
+  'use strict';
+  const pressed=(root, selector, current)=>root.querySelectorAll(selector).forEach(b=>b.setAttribute('aria-pressed',String(b===current)));
+  const setVariables=(root, values)=>Object.entries(values).forEach(([key,value])=>root.style.setProperty(key,value));
+
+  const wb=document.getElementById('fnd-wb');
+  if(wb){
+    const palettes={
+      neutral:['#e8e4da','#bba88f','#5e8498','#395e71','#637f57','#978b7a','#d88d42','#969696','#686868'],
+      warm:['#edcfaa','#c6a078','#829086','#5a7166','#7d854f','#a17f64','#df9948','#b3a18a','#827363'],
+      cool:['#d6e0e8','#a1abb4','#4e82ab','#315875','#4e8077','#7a8b9b','#b98863','#849eaf','#637680']
+    };
+    const keys=['wall','table','vase','rim','leaf','shadow','fruit','card','border'];
+    const messages={
+      neutral:'Карта выглядит нейтральной, а предметы сохраняют собственные цвета. Нейтральность относится к выбранному освещению карты.',
+      warm:'Тёплый оттенок появился не только у фрукта: карта и фон тоже стали желтоватыми. В этой схеме это общий сдвиг, а не новый цвет материала.',
+      cool:'Карта и фон стали холоднее вместе с предметами. Прежде чем отдельно менять вазу или фрукт, проверьте общую настройку ББ.'
+    };
+    wb.querySelectorAll('[data-fnd-wb]').forEach(b=>b.addEventListener('click',()=>{
+      const colors=palettes[b.dataset.fndWb];
+      keys.forEach((key,i)=>wb.style.setProperty('--fnd-wb-'+key,colors[i]));
+      wb.querySelector('#fnd-wb-card-sample').style.background=colors[7];
+      wb.querySelector('#fnd-wb-status').textContent=messages[b.dataset.fndWb];
+      pressed(wb,'[data-fnd-wb]',b);
+    }));
+  }
+
+  const cri=document.getElementById('fnd-cri');
+  if(cri){
+    cri.querySelectorAll('[data-fnd-light-question]').forEach(b=>b.addEventListener('click',()=>{
+      const temp=b.dataset.fndLightQuestion==='temperature';
+      cri.querySelector('#fnd-cct-cause').classList.toggle('fnd-emphasis',temp);
+      cri.querySelector('#fnd-ra-cause').classList.toggle('fnd-emphasis',!temp);
+      cri.querySelector('#fnd-cri-status').textContent=temp?
+        'Верхние две лампы обе имеют 3000 K, но разные Ra. Поэтому «тёплая лампа» не означает ни хорошую, ни плохую цветопередачу.':
+        'У ламп 3000 K и 5500 K может быть одинаковый Ra 95. Это не делает их спектры одинаковыми и не обещает одинаковый результат на каждом предмете; эталон зависит от температуры.';
+      pressed(cri,'[data-fnd-light-question]',b);
+    }));
+  }
+
+  const language=document.getElementById('fnd-language');
+  if(language){
+    const palettes={
+      person:{wall:'#c4baa4',shade:'#a9a7a0',door:'#84979f',sign:'#aaa18c',coat:'#d56f42'},
+      place:{wall:'#c4baa4',shade:'#a9a7a0',door:'#84979f',sign:'#c85f3a',coat:'#949b94'},
+      link:{wall:'#c4baa4',shade:'#a9a7a0',door:'#84979f',sign:'#ce7946',coat:'#ce7946'}
+    };
+    const messages={
+      person:'Пальто — небольшой тёплый акцент среди спокойных поверхностей. Цвет помогает заметить человека, хотя площадь пальто невелика.',
+      place:'Насыщенной стала вывеска, а пальто приблизилось к спокойному окружению. Внимание может дольше задержаться на месте и его обозначении.',
+      link:'Пальто и вывеска повторяют один цвет. Вместо одиночного акцента возникает связь двух участков: зритель может сопоставить человека и место.'
+    };
+    language.querySelectorAll('[data-fnd-story]').forEach(b=>b.addEventListener('click',()=>{
+      Object.entries(palettes[b.dataset.fndStory]).forEach(([key,value])=>language.style.setProperty('--fnd-lang-'+key,value));
+      language.querySelector('#fnd-language-status').textContent=messages[b.dataset.fndStory];
+      pressed(language,'[data-fnd-story]',b);
+    }));
+  }
+
+  const skin=document.getElementById('fnd-skin');
+  if(skin){
+    let mode='local';
+    const tones={light:'#d1a27d',medium:'#bd875f',dark:'#754d37'};
+    const messages={
+      base:'Видны исходные условные цвета. Они служат точкой сравнения для выбранного образца, а не универсальной целью для кожи.',
+      local:'Зеленоватой стала часть лица, а карта осталась серой. Глобальное добавление мадженты затронуло бы и области без этого рефлекса: сначала проверьте причину и локализацию.',
+      global:'Зеленоватый оттенок появился на всей сцене, включая карту и одежду. Это подсказка проверить общий свет и баланс белого; отдельные локальные рефлексы могут существовать одновременно.'
+    };
+    const draw=()=>{
+      setVariables(skin,{'--fnd-skin-base':tones[skin.querySelector('#fnd-skin-base-select').value],'--fnd-skin-local':mode==='local'?'.38':'0','--fnd-skin-global':mode==='global'?'.19':'0'});
+      skin.querySelector('#fnd-skin-status').textContent=messages[mode];
+    };
+    skin.querySelector('#fnd-skin-base-select').addEventListener('change',draw);
+    skin.querySelectorAll('[data-fnd-skin]').forEach(b=>b.addEventListener('click',()=>{mode=b.dataset.fndSkin;draw();pressed(skin,'[data-fnd-skin]',b);}));
+  }
+
+  const reflector=document.getElementById('fnd-reflector');
+  if(reflector){
+    const states={
+      none:{'--fnd-ref-panel':'0','--fnd-ref-direct':'0','--fnd-ref-width':'5','--fnd-ref-dash':'8 8','--fnd-ref-cast':'.55'},
+      shade:{'--fnd-ref-panel':'1','--fnd-ref-direct':'0','--fnd-ref-width':'4','--fnd-ref-dash':'8 8','--fnd-ref-cast':'.5'},
+      lit:{'--fnd-ref-panel':'1','--fnd-ref-direct':'1','--fnd-ref-width':'12','--fnd-ref-dash':'none','--fnd-ref-cast':'.17'}
+    };
+    const messages={
+      none:'В нижнюю часть лица приходит заметный свет от зелёной поверхности. Добавочного пути через отражатель пока нет.',
+      shade:'Отражатель поставили, но в этой схеме на него приходит мало подходящего света. Само наличие белой поверхности не гарантирует заметного изменения на лице.',
+      lit:'Отражатель ловит источник и направляет его свет к лицу. Доля зелёного отражения относительно всего света на лице уменьшается; сам зелёный путь остаётся.'
+    };
+    reflector.querySelectorAll('[data-fnd-reflector]').forEach(b=>b.addEventListener('click',()=>{
+      setVariables(reflector,states[b.dataset.fndReflector]);
+      reflector.querySelector('#fnd-reflector-status').textContent=messages[b.dataset.fndReflector];
+      pressed(reflector,'[data-fnd-reflector]',b);
+    }));
+  }
+
+  const crop=document.getElementById('fnd-crop');
+  if(crop){
+    const frames={left:0,middle:220,right:400};
+    const messages={
+      left:'Тёплая стена занимает большую часть выбранного кадра, а человек оказался снаружи. Цветовой баланс нельзя оценивать отдельно от того, сохранился ли нужный сюжет.',
+      middle:'Тёплая стена почти ушла из кадра, человек виден целиком, но находится близко к правому краю. Цветовые массы изменились без цветокоррекции.',
+      right:'Человек получил больше воздуха справа, но в кадр вошла крупная светлая масса здания. Она может поддержать сюжет или стать новым конкурентом внимания.'
+    };
+    crop.querySelectorAll('[data-fnd-crop]').forEach(b=>b.addEventListener('click',()=>{
+      const x=frames[b.dataset.fndCrop];
+      crop.querySelector('#fnd-crop-frame').setAttribute('x',String(x));
+      crop.querySelector('#fnd-crop-outside').setAttribute('d',`M0 0H800V500H0Z M${x} 0H${x+400}V500H${x}Z`);
+      crop.querySelector('#fnd-crop-result').setAttribute('viewBox',`${x} 0 400 500`);
+      crop.querySelector('#fnd-crop-status').textContent=messages[b.dataset.fndCrop];
+      pressed(crop,'[data-fnd-crop]',b);
+    }));
+  }
 })();
 </script></body></html>
