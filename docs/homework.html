@@ -226,7 +226,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
 .body-text > p:last-child { margin-bottom: 0; }
 .body-text a, .note a, .resource-card a { color: var(--green); overflow-wrap: anywhere; }
 @container reading (min-width: 43rem) {
-  .body-text > p:not(:has(br)), .guide-prose {
+  .body-text > p:not(:has(br)), .body-text li, .guide-prose {
     text-align: justify;
     text-align-last: start;
     hyphens: auto;
@@ -454,7 +454,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 28px 0; }
   .lesson-overview .toc { margin-top: 10px; }
   .lesson-section { padding: 14px 0; }
   .video-card, .summary, .homework-card, .note, .resource-card { break-inside: avoid; }
-  .body-text > p:not(:has(br)), .guide-prose { text-align: justify; text-align-last: start; hyphens: auto; }
+  .body-text > p:not(:has(br)), .body-text li, .guide-prose { text-align: justify; text-align-last: start; hyphens: auto; }
   .curve-lab, .reflection-diagram, .color-tag, .crop-window, .cover-figure { print-color-adjust: exact; }
   .site-footer { font-size: 8pt; }
   .note { font-size: 9pt; }
